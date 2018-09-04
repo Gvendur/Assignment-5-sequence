@@ -9,3 +9,6 @@
 n = int(input("Enter the length of the sequence: ")) 
 
 temp_1, temp_2, temp_3, temp_4  = 0, 1, 2, 1
+
+for i in range(n):
+    
