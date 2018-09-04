@@ -14,3 +14,10 @@ for i in range(n):
     if(i <= 1):
         print(temp_4, end=" ")
         temp_4 += 1
+    else:
+        temp_4 = temp_1 + temp_2 + temp_3
+        print(temp_4 , end=" ")
+        temp_1 = temp_2
+        temp_2 = temp_3
+        temp_3 = temp_4
+        
